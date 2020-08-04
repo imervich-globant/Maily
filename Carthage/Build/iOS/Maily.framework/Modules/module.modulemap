@@ -1,0 +1,11 @@
+framework module Maily {
+  umbrella header "Maily.h"
+
+  export *
+  module * { export * }
+}
+
+module Maily.Swift {
+    header "Maily-Swift.h"
+    requires objc
+}
